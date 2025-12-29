@@ -12,6 +12,11 @@ extension ---> .html
 first html file---> index.html
 
 tag ---> <> </>
+-----------------
+no void ---> <></>
+void ---><>
+
+Attributes ---> Additional Information. <name="val"></>
 
 Boilerplate ---> basic structure of an HTML file
 shortcut --> !
@@ -25,3 +30,42 @@ head --> will contain information about the webpage.
 directory (website) ---> hosting ---> url 
 (multiple web pages)
 http://localhost:5500
+
+home
+service ---> /service.html 
+about us ---> /about.html 
+contact us ---> /contact.html 
+
+File relation
+---------------
+parent  ---> ../
+child  --> /
+sibling  --> ./
+
+Texts, Lists, Links & Media
+-------------------------------
+
+Heading ---> h1-h6 (To create heading in HTML file)
+paragraph tag -->p (define blocks of text)
+break --> <br> break the line
+Horizontal Rule --> <hr> Horizontal line
+
+To create Link in HTML ---> <a href="link">Text</a>
+
+to insert image --> <img src="addr" alt="text that defines this image">
+
+List 
+-------
+Ordered List <ol>
+-------------
+list elements ---> <li>
+
+Unordered List <ul>
+-------------
+list elements ---> <li>
+
+Types of elements
+------------------
+Block Level Elements ---> Start in a new line. Breaks line. <p> Hh1-h6> <ol><ul>
+
+Inline level elements ---> does not create new line. not break the line. <img> <a>
