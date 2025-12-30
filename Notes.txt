@@ -11,6 +11,8 @@ Markup --> symbol (<> </>) structuring contents using Markup.
 extension ---> .html
 first html file---> index.html
 
+comment --->  <!--  -->
+
 tag ---> <> </>
 -----------------
 no void ---> <></>
@@ -69,3 +71,36 @@ Types of elements
 Block Level Elements ---> Start in a new line. Breaks line. <p> Hh1-h6> <ol><ul>
 
 Inline level elements ---> does not create new line. not break the line. <img> <a>
+
+Table
+-------
+>> Structured data in rows and columns
+
+table, tr, th, td.
+
+table --> parent of table
+tr ---> table row
+th ---> table head
+td ---> table data
+
+Forms
+------
+>> A form is used to collect user input and send it to server.
+
+form ---> parent tag
+label --> to add label to an input (attr--->for)
+input ---> void tag(attr: type(defines the type),placeholder(definition for the user), name(name of that input), value(to give value), required)
+
+types of input 
+--------------
+text 
+number
+email
+date
+password
+color
+range
+radio --> multiple choice
+checkbox
+reset
+submit 
