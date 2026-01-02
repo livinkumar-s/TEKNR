@@ -51,6 +51,7 @@ Heading ---> h1-h6 (To create heading in HTML file)
 paragraph tag -->p (define blocks of text)
 break --> <br> break the line
 Horizontal Rule --> <hr> Horizontal line
+div ---> To group elements
 
 To create Link in HTML ---> <a href="link">Text</a>
 
@@ -104,3 +105,33 @@ radio --> multiple choice
 checkbox
 reset
 submit 
+
+task:
+------
+home, about, contact 
+
+contact ---> form (to fetch data from student)
+
+name, age, mark, rating, gender
+
+Semantic Tags
+----------------
+>> non Semantic tag(div) old style.
+>> div ---> No meaning to the browser
+>> SEO unfriendly (div)
+
+Ex: Header, nav, main, section, article, footer
+
+Text Formating Tags 
+---------------------
+b ---> bold
+i ---> italic
+strong ---> bold(semantic)
+em ---> emphasized text(semantic)
+del---> delete
+ins --> inserted text
+sup ----> superscripts
+
+
+
+website --> webpage --> html(to add content),css(styling)
