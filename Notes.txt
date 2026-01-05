@@ -69,7 +69,7 @@ list elements ---> <li>
 
 Types of elements
 ------------------
-Block Level Elements ---> Start in a new line. Breaks line. <p> Hh1-h6> <ol><ul>
+Block Level Elements ---> Start in a new line. Breaks line. <p> <h1-h6> <ol><ul>
 
 Inline level elements ---> does not create new line. not break the line. <img> <a>
 
@@ -133,5 +133,81 @@ ins --> inserted text
 sup ----> superscripts
 
 
-
 website --> webpage --> html(to add content),css(styling)
+
+CSS --> Cascading Style Sheet
+--------------------------------
+CSS is used to control the appearance and layout of HTML elements.
+
+Ways to apply CSS 
+------------------
+Inline ---> inside the tag itself(attribute--> style)
+Internal ---> <style></style>
+External ---> creating a css file seperately and attaching it.
+
+Syntax CSS 
+------------
+selector{
+    property1:value1,
+    property2:value2,
+    .
+    .
+    .
+}
+
+selector ---> whom to style 
+property ---> what to change
+value ---> how to chanhge
+
+h1{
+    background-color:red;
+}
+
+Types Of Selectors 
+---------------------
+Universal --> * --> targets each and every tag
+
+Tagname Selector ---> Targets all the elements of that type
+
+Classname Selector (Most used) ---> Reusable styling
+Ex: .classname
+>> You can give multiple class names to a single tag
+>> You can repeat class names
+
+Id Selector ---> Ex: #Idname
+>> You cannot give multiple id names to a single tag(only one)
+>> You cannot repeat id names
+
+id > class > tagname > *
+
+priory --> uniqueness
+
+Colors in CSS 
+----------------
+>> Name
+>> Hex code --> Ex: #XXXXXX
+>> RGB --> Ex: rgb(num1,num2,num3) 0-255
+
+Properties 
+----------------
+background Styling
+-------------------------
+background-color: color; ---> backgrond color
+backgrond-image: url("");
+
+
+Text Styling Properties 
+------------------------
+color:color; ---> text color
+font-size--> size of the font
+font-weight---> thickness
+font-style 
+font-family 
+line-height 
+letter-spacing 
+word-spacing
+text-align:center, start, end, justify;
+
+CSS Unit
+---------
+px --> 0.28mm

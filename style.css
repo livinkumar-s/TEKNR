@@ -1,0 +1,45 @@
+/* .head{
+    background-color: yellow;
+} */
+
+/* .rage{
+    color: red;
+}  */
+
+/* #head{
+    background-color: green;
+}
+
+#para{
+    background-color: green;
+}
+
+*{
+    background-color: brown;
+} */
+
+/* #para {
+    color: #ff0000;
+    color: rgb(255, 0, 0);
+    font-size: xx-large;
+    font-weight: 900;
+    font-style: italic;
+    font-family: "Dancing Script", cursive;
+    line-height: 100px;
+    letter-spacing: 25px;
+    word-spacing: 40px;
+
+    text-align: justify;
+} */
+
+
+#head{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+#para{
+    font-size: 20px;
+    text-align: justify;
+}
