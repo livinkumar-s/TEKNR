@@ -210,4 +210,29 @@ text-align:center, start, end, justify;
 
 CSS Unit
 ---------
+static
+---------
 px --> 0.28mm
+cm
+in 
+pt--> 0.33mm
+
+Dynamic Unit 
+--------------
+
+
+Box Modelling 
+-------------------
+width --> horizontal distance
+height ---> vertical distance
+
+padding ---> space between content and border
+border ---> using this we can add border 
+margin --> a space that isolates the container from other containers.
+
+border-radius--> to make the edges rounded
+
+box-sizing: border-box, content-box;
+
+content-box --> totat width --> width+padding+border
+border box --> total-width ---> width
