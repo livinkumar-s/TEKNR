@@ -219,6 +219,17 @@ pt--> 0.33mm
 
 Dynamic Unit 
 --------------
+% ---> relative to the parent container (padding, margin, font-size, width, height)
+em ---> font-size --> relative to parent.if par font-size-->20px
+1em --> 100% 
+1.1em --> 110%
+2em --> 200%
+.5em
+rem --> root em --> relative to root elements font size.(16px)
+1rem --> 100%
+2rem --> 200%
+vw --> relative to the viewport(screen) width
+vh --> viewport height
 
 
 Box Modelling 
@@ -236,3 +247,30 @@ box-sizing: border-box, content-box;
 
 content-box --> totat width --> width+padding+border
 border box --> total-width ---> width
+
+Positioning
+--------------
+>> Defaultly The HTML Follws Document Flow.
+
+Position: ;
+
+top:;
+bottom:;
+left:;
+right:;
+
+Types 
+---------
+Static 
+Relative 
+Absolute 
+Fixed 
+Sticky
+
+Static ---> The element will follow the document flow(no changes can be made)
+
+Relative ---> Positioning an element relative to its own Position. the element will not be removed from document flow.
+
+Absolute ---> Positioning an element relative to its NPA(Nearest Positioned Anscestor(the nearest Anscestor with positioning property with values relative or absolute or fixed)) Position. remopved from the workflow.
+
+child ---> parent ----> body --> html
