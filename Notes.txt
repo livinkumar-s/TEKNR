@@ -271,6 +271,12 @@ Static ---> The element will follow the document flow(no changes can be made)
 
 Relative ---> Positioning an element relative to its own Position. the element will not be removed from document flow.
 
-Absolute ---> Positioning an element relative to its NPA(Nearest Positioned Anscestor(the nearest Anscestor with positioning property with values relative or absolute or fixed)) Position. remopved from the workflow.
+Absolute ---> Positioning an element relative to its NPA(Nearest Positioned Anscestor(the nearest Anscestor with positioning property with values relative or absolute or fixed)) Position. removed from the document flow.
 
-child ---> parent ----> body --> html
+box ---> parent ---> grandParent --> body --> html
+         (NPA)
+
+Fixed ---> Removed from the document flow. positioned relative to Root element(HTML). It will not be scrolled.
+
+Sticky ---> Not Removed from the document flow. 
+It is hybrid of fixed and Relative. It will become fixed once it reached the threshold position.
