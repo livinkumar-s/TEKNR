@@ -280,3 +280,37 @@ Fixed ---> Removed from the document flow. positioned relative to Root element(H
 
 Sticky ---> Not Removed from the document flow. 
 It is hybrid of fixed and Relative. It will become fixed once it reached the threshold position.
+
+Display
+----------
+display: value;
+
+Block 
+---------
+>> it will take full available width(100% of parent)
+>> it will start at the new line.
+>> width and height properties can be given.
+Ex: div, h1-16, p, section.......
+
+Inline
+--------
+>> it will not take full available width(only content width)
+>> it will not start at the new line.
+>> width and height properties cannot be given.
+Ex: a, span
+
+Inline-Block 
+---------------
+>> it will not take full available width(only content width)
+>> it will not start at the new line.
+>> width and height properties can be given.
+Ex: img
+
+None 
+-----
+>> Removed from the page
+
+Flex 
+------
+>> It is a CSS layout model.
+It is used to arrange the elements easily.
