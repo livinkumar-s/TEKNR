@@ -182,6 +182,38 @@ id > class > tagname > *
 
 priory --> uniqueness
 
+Grouping Selectors(,) ----> apply same style to multiple selectors.
+>> sel1, sel2, sel3{
+    styling
+}
+
+descendant selector ( ) --> it selects all the descendant element
+>> sel1 sel2{
+    styling
+}
+
+direct descendant or child(>) --> this will select the direct child element
+
+Pseudo Selectors 
+------------------
+Pseudo Class (:)
+-------------
+>> Used to style an element based on state.
+hover
+focus
+first-child
+last-child
+nth-child(num)
+
+Pseudo Element (::)
+----------------------
+>> Used to select a part of an element
+::first-line
+::first-letter 
+::before
+::after
+
+
 Colors in CSS 
 ----------------
 >> Name
