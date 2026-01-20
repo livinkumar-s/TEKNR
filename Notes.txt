@@ -342,7 +342,25 @@ None
 -----
 >> Removed from the page
 
-Flex 
+Flex --> 1 dimensional Layout
 ------
 >> It is a CSS layout model.
 It is used to arrange the elements easily.
+
+display: flex;
+flex-direction: (row), column, row-reverse, col-reverse;
+gap --> can specify the gap value between 2 children
+
+align-items:center, start, end, (stretch); (cross)
+
+justify-contents: center, start, end, space-between, space-around, space-evenly;(main)
+
+Main axis
+Cross Axis
+
+flex-wrap ---> can make the content wrap to another line.
+
+flex-shrink:1; 0
+flex-grow:0; 1
+
+flex:; ratio
