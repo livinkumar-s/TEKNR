@@ -364,3 +364,20 @@ flex-shrink:1; 0
 flex-grow:0; 1
 
 flex:; ratio
+
+
+Grid 
+--------
+>> It is 2 dimensional Layout system(rows + columns). used to build complex, responsive web layouts.
+
+display: grid;
+
+grid-template-columns: ; define column width
+grid-template-rows: ; define row height
+
+grid-auto-rows: ; define height for the additional rows
+
+grid-column:;--> define the area of a container in grid layout
+grid-row:;--> define the area of a container in grid layout
+
+grid-area:rs/cs/re/ce;
