@@ -381,3 +381,19 @@ grid-column:;--> define the area of a container in grid layout
 grid-row:;--> define the area of a container in grid layout
 
 grid-area:rs/cs/re/ce;
+
+
+Media Query 
+------------
+>> It allows CSS to apply different styles based on  the device screen condition.
+
+Syntax 
+---------
+
+media (condition){
+    selector{
+        prop:val
+    }
+}
+condition ---> max-width, min-width
+and
