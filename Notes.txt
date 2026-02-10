@@ -1,399 +1,71 @@
-Website ---> Collection web pages.
+JavaScript:
+-----------
+>> JavaScript is a high-level, interpreted programming language.
+>> Used to make websites interactive & dynamic.
 
-HTML
------
-Hyper Text Markup Language.
->> HTML is used to structure content on web.
+Browser --> JS engine.
+Node ---> Runtime.
 
-Hyper text ---> hyper links 
-Markup --> symbol (<> </>) structuring contents using Markup.
+Frontend   <------>  Backend
+(Html,css,js)      (Js --> Node)
+(Browser)
 
-extension ---> .html
-first html file---> index.html
-
-comment --->  <!--  -->
-
-tag ---> <> </>
+console.log()
 -----------------
-no void ---> <></>
-void ---><>
-
-Attributes ---> Additional Information. <name="val"></>
-
-Boilerplate ---> basic structure of an HTML file
-shortcut --> !
-
-html ---> head --> meta
-|_______> body ----> content
-
-html ---> parent
-head --> will contain information about the webpage.
-
-directory (website) ---> hosting ---> url 
-(multiple web pages)
-http://localhost:5500
-
-home
-service ---> /service.html 
-about us ---> /about.html 
-contact us ---> /contact.html 
-
-File relation
----------------
-parent  ---> ../
-child  --> /
-sibling  --> ./
-
-Texts, Lists, Links & Media
--------------------------------
-
-Heading ---> h1-h6 (To create heading in HTML file)
-paragraph tag -->p (define blocks of text)
-break --> <br> break the line
-Horizontal Rule --> <hr> Horizontal line
-div ---> To group elements
-
-To create Link in HTML ---> <a href="link">Text</a>
-
-to insert image --> <img src="addr" alt="text that defines this image">
-
-List 
--------
-Ordered List <ol>
--------------
-list elements ---> <li>
-
-Unordered List <ul>
--------------
-list elements ---> <li>
-
-Types of elements
-------------------
-Block Level Elements ---> Start in a new line. Breaks line. <p> <h1-h6> <ol><ul>
-
-Inline level elements ---> does not create new line. not break the line. <img> <a>
-
-Table
--------
->> Structured data in rows and columns
-
-table, tr, th, td.
-
-table --> parent of table
-tr ---> table row
-th ---> table head
-td ---> table data
-
-Forms
-------
->> A form is used to collect user input and send it to server.
-
-form ---> parent tag
-label --> to add label to an input (attr--->for)
-input ---> void tag(attr: type(defines the type),placeholder(definition for the user), name(name of that input), value(to give value), required)
-
-types of input 
---------------
-text 
-number
-email
-date
-password
-color
-range
-radio --> multiple choice
-checkbox
-reset
-submit 
-
-task:
-------
-home, about, contact 
-
-contact ---> form (to fetch data from student)
-
-name, age, mark, rating, gender
-
-Semantic Tags
-----------------
->> non Semantic tag(div) old style.
->> div ---> No meaning to the browser
->> SEO unfriendly (div)
-
-Ex: Header, nav, main, section, article, footer
-
-Text Formating Tags 
----------------------
-b ---> bold
-i ---> italic
-strong ---> bold(semantic)
-em ---> emphasized text(semantic)
-del---> delete
-ins --> inserted text
-sup ----> superscripts
-
-
-website --> webpage --> html(to add content),css(styling)
-
-CSS --> Cascading Style Sheet
---------------------------------
-CSS is used to control the appearance and layout of HTML elements.
-
-Ways to apply CSS 
-------------------
-Inline ---> inside the tag itself(attribute--> style)
-Internal ---> <style></style>
-External ---> creating a css file seperately and attaching it.
-
-Syntax CSS 
-------------
-selector{
-    property1:value1,
-    property2:value2,
-    .
-    .
-    .
-}
-
-selector ---> whom to style 
-property ---> what to change
-value ---> how to chanhge
-
-h1{
-    background-color:red;
-}
-
-Types Of Selectors 
----------------------
-Universal --> * --> targets each and every tag
-
-Tagname Selector ---> Targets all the elements of that type
-
-Classname Selector (Most used) ---> Reusable styling
-Ex: .classname
->> You can give multiple class names to a single tag
->> You can repeat class names
-
-Id Selector ---> Ex: #Idname
->> You cannot give multiple id names to a single tag(only one)
->> You cannot repeat id names
-
-id > class > tagname > *
-
-priory --> uniqueness
-
-Grouping Selectors(,) ----> apply same style to multiple selectors.
->> sel1, sel2, sel3{
-    styling
-}
-
-descendant selector ( ) --> it selects all the descendant element
->> sel1 sel2{
-    styling
-}
-
-direct descendant or child(>) --> this will select the direct child element
-
-Pseudo Selectors 
-------------------
-Pseudo Class (:)
--------------
->> Used to style an element based on state.
-hover
-focus
-first-child
-last-child
-nth-child(num)
-
-Pseudo Element (::)
-----------------------
->> Used to select a part of an element
-::first-line
-::first-letter 
-::before
-::after
-
-
-Colors in CSS 
-----------------
->> Name
->> Hex code --> Ex: #XXXXXX
->> RGB --> Ex: rgb(num1,num2,num3) 0-255
-
-Properties 
-----------------
-background Styling
--------------------------
-background-color: color; ---> backgrond color
-backgrond-image: url("");
-
-
-Text Styling Properties 
-------------------------
-color:color; ---> text color
-font-size--> size of the font
-font-weight---> thickness
-font-style 
-font-family 
-line-height 
-letter-spacing 
-word-spacing
-text-align:center, start, end, justify;
-
-CSS Unit
----------
-static
----------
-px --> 0.28mm
-cm
-in 
-pt--> 0.33mm
-
-Dynamic Unit 
---------------
-% ---> relative to the parent container (padding, margin, font-size, width, height)
-em ---> font-size --> relative to parent.if par font-size-->20px
-1em --> 100% 
-1.1em --> 110%
-2em --> 200%
-.5em
-rem --> root em --> relative to root elements font size.(16px)
-1rem --> 100%
-2rem --> 200%
-vw --> relative to the viewport(screen) width
-vh --> viewport height
-
-
-Box Modelling 
--------------------
-width --> horizontal distance
-height ---> vertical distance
-
-padding ---> space between content and border
-border ---> using this we can add border 
-margin --> a space that isolates the container from other containers.
-
-border-radius--> to make the edges rounded
-
-box-sizing: border-box, content-box;
-
-content-box --> totat width --> width+padding+border
-border box --> total-width ---> width
-
-Positioning
---------------
->> Defaultly The HTML Follws Document Flow.
-
-Position: ;
-
-top:;
-bottom:;
-left:;
-right:;
-
-Types 
----------
-Static 
-Relative 
-Absolute 
-Fixed 
-Sticky
-
-Static ---> The element will follow the document flow(no changes can be made)
-
-Relative ---> Positioning an element relative to its own Position. the element will not be removed from document flow.
-
-Absolute ---> Positioning an element relative to its NPA(Nearest Positioned Anscestor(the nearest Anscestor with positioning property with values relative or absolute or fixed)) Position. removed from the document flow.
-
-box ---> parent ---> grandParent --> body --> html
-         (NPA)
-
-Fixed ---> Removed from the document flow. positioned relative to Root element(HTML). It will not be scrolled.
-
-Sticky ---> Not Removed from the document flow. 
-It is hybrid of fixed and Relative. It will become fixed once it reached the threshold position.
-
-Display
-----------
-display: value;
-
-Block 
----------
->> it will take full available width(100% of parent)
->> it will start at the new line.
->> width and height properties can be given.
-Ex: div, h1-16, p, section.......
-
-Inline
---------
->> it will not take full available width(only content width)
->> it will not start at the new line.
->> width and height properties cannot be given.
-Ex: a, span
-
-Inline-Block 
----------------
->> it will not take full available width(only content width)
->> it will not start at the new line.
->> width and height properties can be given.
-Ex: img
-
-None 
+console.log(data) --> the data will be printed out in the console.
+
+Ways to Use JS 
+-----------------
+Inline JS 
+Internal JS ---> <script></script>
+external JS --> <script src="address"></script>
+
+Variables
+-----------
+>> Variable stores data.
+
+>> a-z, A-Z, numerics, _ allowed
+>> cannot start with numerics 
+>> no space allowed
+>> case sensitive.
+>> No reserved keywords.
+
+var 
+----
+ex: var varName= value;
+>> old way
+>> Redeclaration is possible(problematic)
+>> Function Scoped
+>> can be reassigned.
+
+let 
 -----
->> Removed from the page
+ex: let varName=value 
+>> Block scoped.
+>> can be reassigned.
+>> Redeclaration is not possible
 
-Flex --> 1 dimensional Layout
-------
->> It is a CSS layout model.
-It is used to arrange the elements easily.
+const 
+-----
+ex: const varName=value 
+>> Block scoped.
+>> cannot be reassigned.
+>> Redeclaration is not possible
 
-display: flex;
-flex-direction: (row), column, row-reverse, col-reverse;
-gap --> can specify the gap value between 2 children
+Commenting
+----------
+// line of code 
+these codes will be ignored.
 
-align-items:center, start, end, (stretch); (cross)
+Datatype 
+----------
+typof obj ---> the datatype of the obj.
 
-justify-contents: center, start, end, space-between, space-around, space-evenly;(main)
-
-Main axis
-Cross Axis
-
-flex-wrap ---> can make the content wrap to another line.
-
-flex-shrink:1; 0
-flex-grow:0; 1
-
-flex:; ratio
-
-
-Grid 
---------
->> It is 2 dimensional Layout system(rows + columns). used to build complex, responsive web layouts.
-
-display: grid;
-
-grid-template-columns: ; define column width
-grid-template-rows: ; define row height
-
-grid-auto-rows: ; define height for the additional rows
-
-grid-column:;--> define the area of a container in grid layout
-grid-row:;--> define the area of a container in grid layout
-
-grid-area:rs/cs/re/ce;
-
-
-Media Query 
-------------
->> It allows CSS to apply different styles based on  the device screen condition.
-
-Syntax 
----------
-
-media (condition){
-    selector{
-        prop:val
-    }
-}
-condition ---> max-width, min-width
-and
+Primitive Datatypes (basic, stores one value, immutable)
+--------------------
+String ---> '',""
+Number --> 1,2,2.021....-1...
+boolean ---> true, false
+undefined ---> variable without value
+null --> intensional absence
+BigInt --->123456789n
