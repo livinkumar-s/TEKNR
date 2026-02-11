@@ -69,3 +69,57 @@ boolean ---> true, false
 undefined ---> variable without value
 null --> intensional absence
 BigInt --->123456789n
+
+Operators
+-----------
+>> Symbols that perform operation on values
+1 + 1 = 2
+
+Arithmetic Operators 
+----------------------
+>> Basic Math Calculation
+
+Addition ---> +
+Subtraction --> -
+Multiplication ---> *
+Division ---> /
+Modulus ---> % (reminder)
+Exponentiation --> **
+
+BODMAS Rule
+
+Assignment Operators
+-----------------------
+= assign 
++= add and assign 
+-= sub and assign
+*= mul and assign 
+/= div and assign 
+%= mod and assign
+
+Comparison Operators (Boolean Values)
+---------------------
+== loose equal(only value)
+=== strict equal (both values and datatype)
+!= not equal 
+> less than 
+< greater than 
+<=
+>=
+
+Logical Operators (works with bool)
+-----------------
+And --> &&
+Or ---> ||
+Not ---> !
+
+Increment and Decrement 
+------------------------
+Increment --> ++(adding 1)
+Decrement --> --(sub 1)
+
+Pre Increment ---> ++a (increment first. assignment next)
+Post Increment --> a++ (assignment first. increment next)
+
+Pre Decrement ---> --a (decrement first. assignment next)
+Post Decrement --> a- (assignment first. decrement next)

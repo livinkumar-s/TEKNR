@@ -1,18 +1,56 @@
-// const age=22;
-// age=44
+// let a=15
+// let b=12
 
-// let age=22;
-// let age1=23;
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(a/b);
+// console.log(a%b);
+// console.log(4**4);
 
-// console.log(age1);
+// console.log(3+4-5*9/3);
 
-// let name1="123"
-// let val=4.4
-// let bool1=true
-// let a;
-// let b=null;
+// let a=12
+// a+=10
+// a-=5
+// a*=3
+// a/=2
+// a%=20 //25.5%20
 
-let a=10
-a=11
+// console.log(a);
 
-console.log(a);
+
+// Comparison
+
+// let a=9
+// let b=10
+
+// console.log(a==b);
+// console.log(a===b);
+
+// console.log(a!=b);
+
+// console.log(a>b);
+
+// console.log(a>=b);
+// console.log(a<=b);
+
+
+// Logical
+
+// let a=false
+// let b=false
+
+// console.log(a && b);
+// console.log(a || b);
+
+// console.log(!a);
+
+// console.log(10+11);
+
+let a=0
+// let b=a--
+// console.log(b);
+// console.log(a);
+
+console.log(11 + 11 - 11 + 11);
