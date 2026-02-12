@@ -1,56 +1,86 @@
-// let a=15
-// let b=12
+// Conditional Statements 
 
-// console.log(a+b);
-// console.log(a-b);
-// console.log(a*b);
-// console.log(a/b);
-// console.log(a%b);
-// console.log(4**4);
+// let age=Number(prompt("Enter Your age: ")); //'36'
+// if(age>=18){
+//     console.log("Can vote!");
+// }
+// else{
+//     console.log("Cannot Vote!");
+// }
 
-// console.log(3+4-5*9/3);
-
-// let a=12
-// a+=10
-// a-=5
-// a*=3
-// a/=2
-// a%=20 //25.5%20
-
-// console.log(a);
+// let inp=Number("456")
+// console.log(typeof inp);
 
 
-// Comparison
+// let a=11;
 
-// let a=9
-// let b=10
+// if (a--<=10) {
+//     console.log(1);
+//     console.log(2);
+//     console.log(3);
+//     console.log(4);
+// }
+// else{
+//     console.log(6);
+//     console.log(7);
+//     console.log(8);
+// }
 
-// console.log(a==b);
-// console.log(a===b);
-
-// console.log(a!=b);
-
-// console.log(a>b);
-
-// console.log(a>=b);
-// console.log(a<=b);
+// console.log(5);
 
 
-// Logical
+// let a=10;
 
-// let a=false
-// let b=false
+// if(a<10){
+//     console.log("From if block");
+// }
+// else if (a>10){
+//     console.log("From Else if 1 block");
+// }
+// else if (a<10){
+//     console.log("From Else if 2 block");
+// }
+// else{
+//     console.log("From else block");
+// }
 
-// console.log(a && b);
-// console.log(a || b);
+// let marks = Number(prompt("Enter your marks:"));
 
-// console.log(!a);
+//     if (marks >= 90 && marks <= 100) {
+//         console.log("O grade");
+//     } 
+//     else if (marks >= 80 && marks <= 89) {
+//         console.log("A+ grade");
+//     } 
+//     else if (marks >= 70 && marks <= 79) {
+//         console.log("A grade");
+//     } 
+//     else if (marks >= 60 && marks <= 69) {
+//         console.log("B grade");
+//     } 
+//     else if (marks >= 50 && marks <= 59) {
+//         console.log("C grade");
+//     } 
+//     else if (marks >= 0 && marks <= 49) {
+//         console.log("You are fail");
+//     } 
 
-// console.log(10+11);
+//     else {
+//         console.log("Invalid mark");
+//     }
 
-let a=0
-// let b=a--
-// console.log(b);
-// console.log(a);
+// let a = 5;
 
-console.log(11 + 11 - 11 + 11);
+// if (a > 10) {
+//     if (a > 15) {
+//         console.log("Very large!");
+//     } else {
+//         console.log("Large");
+//     }
+// } else {
+//     if (a < 5) {
+//         console.log("Very Small");
+//     } else {
+//         console.log("Small");
+//     }
+// }

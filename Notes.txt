@@ -14,6 +14,11 @@ console.log()
 -----------------
 console.log(data) --> the data will be printed out in the console.
 
+prompt()
+---------
+input from user. will always return string.
+
+
 Ways to Use JS 
 -----------------
 Inline JS 
@@ -70,6 +75,12 @@ undefined ---> variable without value
 null --> intensional absence
 BigInt --->123456789n
 
+Type Casting methods
+---------------------
+Number ---> convert to number 
+string 
+boolean
+
 Operators
 -----------
 >> Symbols that perform operation on values
@@ -123,3 +134,61 @@ Post Increment --> a++ (assignment first. increment next)
 
 Pre Decrement ---> --a (decrement first. assignment next)
 Post Decrement --> a- (assignment first. decrement next)
+
+
+Conditional Statements
+-----------------------
+
+if statements 
+----------------
+syntax
+-------
+if(condition){
+    block of code
+}
+condition ---> Expressions that return Boolean value
+true ---> it will execute the block of code 
+false ---> ignores it.
+
+else if statement 
+--------------------
+syntax
+------
+else if(condition){
+    block of code
+}
+
+true ---> it will execute the block of code 
+false ---> ignores it.
+
+else
+-----
+syntax:
+--------
+else{
+    block of code
+}
+will work occording to the condition given in if block
+
+mark --> prompt 
+90-100 -> O 
+80-89 -->A+
+70-79 --> A 
+60-69 --> B
+50-59 --> C
+0-49 --> Fail
+
+
+Nested If 
+----------
+if (condition1){
+    if(condition2){
+        block of code
+    }
+}
+
+switch case 
+--------------
+
+loops 
+------
