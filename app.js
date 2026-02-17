@@ -1,86 +1,76 @@
-// Conditional Statements 
+// console.log("Hello");
 
-// let age=Number(prompt("Enter Your age: ")); //'36'
-// if(age>=18){
-//     console.log("Can vote!");
-// }
-// else{
-//     console.log("Cannot Vote!");
-// }
+// While
 
-// let inp=Number("456")
-// console.log(typeof inp);
+// i=1
 
-
-// let a=11;
-
-// if (a--<=10) {
-//     console.log(1);
-//     console.log(2);
-//     console.log(3);
-//     console.log(4);
-// }
-// else{
-//     console.log(6);
-//     console.log(7);
-//     console.log(8);
+// while(i>=100){
+// console.log(i);
+// i++;
 // }
 
-// console.log(5);
 
+//no of execution: 
+//i=0
 
-// let a=10;
+// 1-100
 
-// if(a<10){
-//     console.log("From if block");
+// Do while 
+// let i = 1
+
+// do {
+//     console.log(i);
+//     i++;
+// } while (i <= 100)
+
+//i=2,3....101
+// no of exe= 1,2......100
+
+// for 
+
+// for(let i=0;i<10;i++){
+//     console.log("Hello world!"); 
 // }
-// else if (a>10){
-//     console.log("From Else if 1 block");
-// }
-// else if (a<10){
-//     console.log("From Else if 2 block");
-// }
-// else{
-//     console.log("From else block");
-// }
 
-// let marks = Number(prompt("Enter your marks:"));
 
-//     if (marks >= 90 && marks <= 100) {
-//         console.log("O grade");
-//     } 
-//     else if (marks >= 80 && marks <= 89) {
-//         console.log("A+ grade");
-//     } 
-//     else if (marks >= 70 && marks <= 79) {
-//         console.log("A grade");
-//     } 
-//     else if (marks >= 60 && marks <= 69) {
-//         console.log("B grade");
-//     } 
-//     else if (marks >= 50 && marks <= 59) {
-//         console.log("C grade");
-//     } 
-//     else if (marks >= 0 && marks <= 49) {
-//         console.log("You are fail");
-//     } 
+// const secret = 22;
+// let notFound = true
 
-//     else {
-//         console.log("Invalid mark");
-//     }
+// while (notFound) {
+//     let inp = Number(prompt("Try to guess the number: "))
 
-// let a = 5;
-
-// if (a > 10) {
-//     if (a > 15) {
-//         console.log("Very large!");
+//     if (inp == secret) {
+//         console.log("You Won!");
+//         notFound = false
 //     } else {
-//         console.log("Large");
-//     }
-// } else {
-//     if (a < 5) {
-//         console.log("Very Small");
-//     } else {
-//         console.log("Small");
+//         console.log("Try again");
 //     }
 // }
+
+// inp = 1,33,22
+// no of execution: 1,2,3,4.....n
+// notFound = false
+
+// 1-100
+
+// let i=22
+
+// if(i%2==0){
+//     console.log(i);
+// }
+
+// 1---> 
+// 2--->
+// 3--->
+// .
+// .
+// 100
+
+
+for(let i=1;i<=100;i++){
+    
+    if(i%2==0){
+        console.log(i);
+    }
+
+}

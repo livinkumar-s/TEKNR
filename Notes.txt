@@ -192,3 +192,36 @@ switch case
 
 loops 
 ------
+>> Loop is used to execute a block of code repeatedly until a condition becomes false.
+
+for 
+while 
+do while 
+for...of 
+for....in 
+
+while 
+---------
+when you dont know the number of iteration
+syntax:
+----------
+while(condition){
+    block of code
+}
+
+it is going to execute the block of code repeatedly as long as the condition is True.
+
+Do while 
+----------
+do {
+    block of code 
+} while (condition)
+
+For 
+----
+when you know the no of executions
+syntax 
+---------
+for(init;cond;incre){
+    block of code
+}
