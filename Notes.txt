@@ -225,3 +225,49 @@ syntax
 for(init;cond;incre){
     block of code
 }
+
+
+Functions 
+-----------------
+>> A function is a block of reusable code designed to perform a specific task.
+
+write code ---> use multiple times
+
+Function Declaration(Hoisted)
+------------------------
+syntax
+---------
+function fnName(){
+    block of code
+}
+
+calling a function ---> fnName()
+
+Parameters and Arguments 
+-------------------------
+P --> variables created inside a function during the declaration.
+A --> the values you are passing to the parameters.
+
+Return 
+-------
+>> stop a function
+>> to return a data to the caller
+
+Function Expression (not Hoisted) (Safe)
+------------------
+syntax
+---------
+const fnName = ()=>{
+    block of code
+}
+
+Arrow Function 
+----------------
+syntax
+---------
+()=>{
+    block of code
+}
+
+Scope 
+-------

@@ -1,76 +1,84 @@
-// console.log("Hello");
-
-// While
-
-// i=1
-
-// while(i>=100){
-// console.log(i);
-// i++;
+// function greet() {
+//     console.log("Hello");
+//     console.log("Hi");
+//     console.log("Good afterneen");
 // }
 
+// greet()
+// greet()
+// greet()
+// greet()
 
-//no of execution: 
-//i=0
 
-// 1-100
-
-// Do while 
-// let i = 1
-
-// do {
-//     console.log(i);
-//     i++;
-// } while (i <= 100)
-
-//i=2,3....101
-// no of exe= 1,2......100
-
-// for 
-
-// for(let i=0;i<10;i++){
-//     console.log("Hello world!"); 
+// function sum(a,b){
+//     console.log(a+b);  
 // }
 
+// sum(3,4)
 
-// const secret = 22;
-// let notFound = true
-
-// while (notFound) {
-//     let inp = Number(prompt("Try to guess the number: "))
-
-//     if (inp == secret) {
-//         console.log("You Won!");
-//         notFound = false
-//     } else {
-//         console.log("Try again");
-//     }
+// function printSteps(){
+//     console.log("Step1");
+//     console.log("Step2");
+//     console.log("Step3");
+//     return "Hello";
+//     console.log("Step4");
+//     console.log("Step5");
 // }
 
-// inp = 1,33,22
-// no of execution: 1,2,3,4.....n
-// notFound = false
+// let a=printSteps()
+// console.log(a);
 
-// 1-100
-
-// let i=22
-
-// if(i%2==0){
-//     console.log(i);
+// function sum(a,b,c){
+//     return a+b+c
 // }
 
-// 1---> 
-// 2--->
-// 3--->
-// .
-// .
-// 100
+// console.log(sum(9,9,12));
+
+// const printSteps=(a,b)=>{
+//    console.log(a+b);
+// }
+
+// printSteps(5,5)
+
+// function outer(a, name) { //a=inner, name="Priya"
+//     a(name) //inner("Priya")
+// }
+
+// function inner(n1) { //"Priya"
+//     console.log("Hello world"+n1);
+// }
+
+// outer((n1) => { console.log("Hello world" + n1) }, "Priya")
+
+// function printName(n1){
+//     console.log(n1*n1);
+// }
+
+// let num=2
+
+// printName(2)
 
 
-for(let i=1;i<=100;i++){
-    
-    if(i%2==0){
-        console.log(i);
-    }
+// function greet(a, b, c) { //a==> arr, b="Priya", c="GA"
+//     a(b, c) // arr(b,c)
+// }
 
-}
+// const inner=(name, wish) => {
+//     console.log(wish + " " + name + "...!");
+// }
+
+// greet((name, wish) => {
+//     console.log(wish + " " + name + "...!");
+// }, "Priya", "Good Afternoon")
+
+
+
+// sayHi()
+
+// function sayHi(){
+//     console.log("Hi....!");
+// }
+
+// const sayHi=()=>{
+//     console.log("Hi....!");
+// }
