@@ -81,6 +81,24 @@ Number ---> convert to number
 string 
 boolean
 
+Truthy and Falsy 
+-------------------
+Falsy 
+------
+0,
+null,
+undefined,
+NaN,
+""
+
+Truthy 
+-------
+any numbers otherthan 0
+non empty string 
+[]
+{}
+function
+
 Operators
 -----------
 >> Symbols that perform operation on values
@@ -271,3 +289,46 @@ syntax
 
 Scope 
 -------
+>> Accesibility of variables.
+
+Function Scope 
+--------------
+>> var 
+>> accessible only within that function.
+
+Block Scope 
+-------------
+>> let, const
+>> accessible only within the block.
+
+Arrays 
+---------
+>> Ordered collectiojn of values.
+[ele1,ele2,ele3........]
+
+Acccessing Elements 
+--------------------
+index starts with 
+arr=[1,2,3,4,5,"Livi"]
+arr[1]
+
+length ---> it is a property to find length of an array.
+
+Looping over an array---> for
+
+Methods 
+--------
+push() ---> add element at the end
+pop() ---> remove element from end.
+shift() ---> removes element from start.
+unshift(ele) ---> add element at starrt.
+
+.foreach---> iterate or loop over an array
+.map() --> creates new array with modified elements.(gonna return new arr)
+.filter() --> creates new array with filteration.
+.reduce() --> it will a single value.
+
+.includes(ele) --> return bool
+
+Objects 
+----------
