@@ -1,161 +1,116 @@
-// function printValue() {
-//     var a = 7;
-//     console.log(a);
+// Object
 
-//     function inner(){
-//         console.log(a);
+// let person1={
+//     name:"Mahesh Babu",
+//     age:47,
+//     isMarried:true,
+//     printHello:()=>{
+//         console.log("Hello");
+//     },
+//     printHeroName: function (){
+//         console.log(this.name);
 //     }
-
-//     inner()
 // }
 
-// printValue()
+// person1.printHello()
+// person1.printHeroName()
 
-// console.log(a);
+// person1["age"]=50
+// person1.latestMovie="varanasi"
+// delete person1.isMarried;
 
-
-// if (true) {
-//     var a = 10
-//     console.log(a);
-// }
-
-// console.log(a);
-
-// console.log(a); // undefined
+// console.log(person1);
 
 
-// var a=10;
-// let a=10;
-// const a=10;
-
-// Arrays
-
-// let arr1=[1,2,3,4,5,"six","seven","nine"]
-
-// console.log(arr1[4]);
-// console.log(arr1.length);
-
-// for(let i=0;i<arr1.length;i++){
-//     console.log(arr1[i]);
-// }
-
-// console.log(arr1[0]);
-// console.log(arr1[1]);
-// console.log(arr1[2]);
-// console.log(arr1[3]);
-// console.log(arr1[4]);
-// console.log(arr1[5]);
-// console.log(arr1[6]);
-
-// let arr1=[1,2,3,4,5,"six","seven","nine"]
-// arr1.push(17)
-// arr1.pop()
-// arr1.pop()
-// arr1.shift()
-// arr1.unshift(111)
-
-// console.log(arr1);
-
-// Foreach 
-
-//+5
-// 4,8,15...16
-
-// const inner=(val,ind)=>{
-
-// }
-
-// arr1.forEach((val,ind)=>{
-//     console.log(val+5);    
-// })
-
-//1 ---> val--> 2, ind -->0
-//2 ---> val--> 4, ind --> 1
-//.
-//.
-//7 ---> val--> 8, ind--->6
-
-// let a=arr1.forEach((val, ind) => {
-//     console.log(ind * 2);
-// })
-
-// console.log(a);
+// // console.log(person1.name);
+// console.log(person1["name"]);
 
 
-// function dummy(){
-//     console.log("Hui");
-// }
+// let arr = [1, 2, 3, 4, 5, () => { console.log("Heelo") }]
+// arr[3]=44
+// console.log(arr);
 
-// let a=dummy();
-// console.log(a);
+// arr[5]()
 
+// let arr=[
+//     1,
+//     2,
+//     3,
+//     4,
+//     [
+//         "five",
+//         "six",
+//         "seven",
+//         [
+//             "eight",
+//             "nine"
+//         ]
+//     ],
+// ]
 
-// Map 
-// let arr1 = [2, 4, 5, 3, 1, 7, 8]
+// console.log(arr[4][3][1])
 
-// []
+// Dummy person object example
+// const person = {
+//   firstName: "Jane",
+//   lastName: "Doe",
+//   age: 28,
+//   email: "jane.doe@example.com",
+//   address: {
+//     street: "123 Main St",
+//     city: "Sampleville",
+//     state: "CA",
+//     zip: "12345"
+//   },
+//   isActive: true
+// };
 
-// let ans=arr1.map((num,ind)=>{
-//     return num*ind
-// })
+// console.log(person.address.state);
+// console.log(person["address"].state);
 
-// console.log(ans);
-// console.log(arr1);
+let studentMarks = [
+    {
+        name: "Alice",
+        marks: 85
+    },
+    {
+        name: "Bob",
+        marks: 45
+    },
+    {
+        name: "Charlie",
+        marks: 52
+    },
+    {
+        name: "David",
+        marks: 99
+    },
+    {
+        name: "Eve",
+        marks: 88
+    }
+]
 
+// [{name:"Alice", satus:"Pass"}, {name:"Bob", satus:"Fail"}, {name:"Charlie", satus:"Pass"}, {name:"David", satus:"Fail"}, {name:"Eve", satus:"Pass"}]
 
-// Filter
-// let arr1 = [2, 4, 5, 3, 1, 7, 8]
-//[]
+//[1,1,1,1,1]
 
-// let ans=arr1.filter((num,ind)=>{
-//     return num<=5
-// });
+let ans=studentMarks.map((val,ind)=>{
+    let isPassed="pass"
+    if(val.marks<50){
+        isPassed="Fail"
+    }
 
-//1 --> (2,0) ---> false
-//2 --> (4,1) ---> false
-//3 --> (5,2) ---> true
-
-// console.log(ans);
-
-
-
-
-// let arr1 = [2, 4, 5, 3, 1, 7, 8]
-
-// let ans = arr1.reduce((acc, val, ind) => {
-//     return acc * val
-// }, 1)
-
-// console.log(ans);
-
-
-//value = 1
-
-//exe1 --> (1,2,0) ---> ret 2
-//exe2 --> (2,4,1) ---> ret 6
-//exe3 --> (6,5,2) ---> ret 11
-//exe4 --> (11,3,3) ---> ret 14
-//exe5 --> (14,1,4) ---> ret 15
-//exe6 --> (15,7,5) ---> ret 22
-//exe7 ---> (22,8,6) --> ret 30  --> acc--> 30
-
-
-// let arr1=[234,5,234,54]
-
-// console.log(arr1.includes(5));
-
-// if (7+7) {
-//     console.log("Step1");
-//     console.log("Step2");
-//     console.log("Step3");
-// }
-
-let arr1=[8,7,6,5,4,3,2,1]
-
-//[]
-
-let result=arr1.filter((num,ind)=>{
-    return ind
+    return {
+        name: val.name,
+        status:isPassed
+    }
 })
 
-console.log(result);
+// 1 ---> val ={name: "Alice",marks: 85}, ind=0
+// 2 ---> val ={name: "Bob",marks: 45}, ind=1
+// 3 ---> val ={name: "Charlie",marks: 52}, ind=2
+// 4 ---> val ={name: "David",marks: 8}, ind=3
+// 5 ---> val ={name: "Eve",marks: 88}, ind=4
+
+console.log(ans);

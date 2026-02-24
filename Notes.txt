@@ -75,6 +75,12 @@ undefined ---> variable without value
 null --> intensional absence
 BigInt --->123456789n
 
+Non - Primitive 
+-----------------
+>> Function 
+>> Objects 
+>> Arrays 
+
 Type Casting methods
 ---------------------
 Number ---> convert to number 
@@ -332,3 +338,15 @@ unshift(ele) ---> add element at starrt.
 
 Objects 
 ----------
+>> An object is a collection of Key-value pairs.
+>> Keys are strings... and should be unique
+person={
+    name:"Kelly",
+    age:55,
+    qualification:"BE",
+}
+
+Accessing Object Values 
+-------------------------
+Dot notation --> obj.key
+Bracket Notation --> obj["key"]
