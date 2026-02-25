@@ -350,3 +350,60 @@ Accessing Object Values
 -------------------------
 Dot notation --> obj.key
 Bracket Notation --> obj["key"]
+
+DOM --> Document Object Model
+-----
+>> It is a programming interface for HTML documents.
+>> It represents the webpage as a tree structure (node)
+>> Javascript uses DOM to: 
+>access the elements
+>modify the content
+>change styling
+>add/remove elements
+
+html ---> browser parses --> it creates dom --> using js ur accessing the DOM.
+>>each nodes are js objects
+
+document ---> it represents the whole webpage's content
+
+DOM Selectors 
+----------------
+1) getElementById()---> selecting element using id name
+2) getElementsByClassName()---> selecting using class name as an array. 
+3) getElementsByTagName()---> selecting using tag name as an array. 
+4) querySelector(query) --> selects single element
+5) querySelectorAll(query) --> selects multiple 
+
+Manipulating Text & contents 
+----------------------------
+1) innerText --> manipulate visible text
+2) textContent --> manipulating even hidden text too
+3) innerHTML --> manipulates the HTML.
+
+Manipulating Attributes 
+------------------------
+ele.getAttribute("Attr name")
+ele.setAttribute(attrNAme,val)
+ele.removeAttribute(attrName)
+
+Manipulating Style 
+-----------------------
+Inline styling 
+-----------------
+ele.style.property="val"
+
+Manipulating class 
+--------------------
+ele.classList.add("class name")---> to add class name
+ele.classList.remove("class name")---> to remove class name
+ele.classList.toggle("class name")
+ele.classList.contains("className")
+
+Creating and Removing Elements 
+--------------------------------
+
+DOM Traversal 
+------------------
+
+Event Handling 
+----------------

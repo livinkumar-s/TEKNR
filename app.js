@@ -1,116 +1,38 @@
-// Object
+// let h1=document.getElementById("head")
+// let p=document.getElementsByClassName("para")
+// let paras=document.getElementsByTagName("p")
+// console.log(paras);
 
-// let person1={
-//     name:"Mahesh Babu",
-//     age:47,
-//     isMarried:true,
-//     printHello:()=>{
-//         console.log("Hello");
-//     },
-//     printHeroName: function (){
-//         console.log(this.name);
-//     }
-// }
+// let p1=document.querySelector(".para")
+// let p1=document.querySelectorAll(".para")
+// console.log(p1);
 
-// person1.printHello()
-// person1.printHeroName()
-
-// person1["age"]=50
-// person1.latestMovie="varanasi"
-// delete person1.isMarried;
-
-// console.log(person1);
+// let h1=document.querySelector("#head")
+// h1.innerText="Hello world"
+// console.log(h1.textContent);
+// h1.textContent="Hi guys....!"
 
 
-// // console.log(person1.name);
-// console.log(person1["name"]);
+// let box=document.querySelector(".box")
+
+// console.log(box.textContent);
+// console.log(box.innerHTML);
+// box.innerHTML="HI <h2>Dummy text</h2>"
+
+// let h1=document.getElementById("head")
+// console.log(h1.getAttribute("id"));
+// h1.setAttribute("id","head2")
+// h1.removeAttribute("id")
+
+// let p = document.querySelector(".para");
+// p.style.color = "red";
+// p.style.fontSize="50px";
+
+let paras=document.querySelectorAll(".para")
+// console.log(paras);
+// paras[1].classList.add("styledPara")
+// paras[1].classList.remove("styledPara")
+// paras[1].classList.toggle("styledPara")
+console.log(paras[1].classList.contains("styledPara"));
 
 
-// let arr = [1, 2, 3, 4, 5, () => { console.log("Heelo") }]
-// arr[3]=44
-// console.log(arr);
-
-// arr[5]()
-
-// let arr=[
-//     1,
-//     2,
-//     3,
-//     4,
-//     [
-//         "five",
-//         "six",
-//         "seven",
-//         [
-//             "eight",
-//             "nine"
-//         ]
-//     ],
-// ]
-
-// console.log(arr[4][3][1])
-
-// Dummy person object example
-// const person = {
-//   firstName: "Jane",
-//   lastName: "Doe",
-//   age: 28,
-//   email: "jane.doe@example.com",
-//   address: {
-//     street: "123 Main St",
-//     city: "Sampleville",
-//     state: "CA",
-//     zip: "12345"
-//   },
-//   isActive: true
-// };
-
-// console.log(person.address.state);
-// console.log(person["address"].state);
-
-let studentMarks = [
-    {
-        name: "Alice",
-        marks: 85
-    },
-    {
-        name: "Bob",
-        marks: 45
-    },
-    {
-        name: "Charlie",
-        marks: 52
-    },
-    {
-        name: "David",
-        marks: 99
-    },
-    {
-        name: "Eve",
-        marks: 88
-    }
-]
-
-// [{name:"Alice", satus:"Pass"}, {name:"Bob", satus:"Fail"}, {name:"Charlie", satus:"Pass"}, {name:"David", satus:"Fail"}, {name:"Eve", satus:"Pass"}]
-
-//[1,1,1,1,1]
-
-let ans=studentMarks.map((val,ind)=>{
-    let isPassed="pass"
-    if(val.marks<50){
-        isPassed="Fail"
-    }
-
-    return {
-        name: val.name,
-        status:isPassed
-    }
-})
-
-// 1 ---> val ={name: "Alice",marks: 85}, ind=0
-// 2 ---> val ={name: "Bob",marks: 45}, ind=1
-// 3 ---> val ={name: "Charlie",marks: 52}, ind=2
-// 4 ---> val ={name: "David",marks: 8}, ind=3
-// 5 ---> val ={name: "Eve",marks: 88}, ind=4
-
-console.log(ans);
