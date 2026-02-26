@@ -401,9 +401,42 @@ ele.classList.contains("className")
 
 Creating and Removing Elements 
 --------------------------------
+.createElement("tagname")
+.appendChild(ele) --> add element as last child of any tag.
+.remove()
+.removeChild(child)
 
 DOM Traversal 
 ------------------
+.parentElement
+.children
+.firstElementChild
+.lastElementChild
+.previousElementSibling
+.nextElementSibling
 
 Event Handling 
 ----------------
+Events 
+-------
+>> Event is an action that happens in the browser
+>> User clicks a button 
+>> User types in input 
+>> Page load 
+>> Form submission.....
+
+Ex: click, dbclick, mouseover, mouseleave.....
+
+Event Handlers 
+-----------------
+Inline Event Handler 
+---------------------
+<tag onclick="fnction()"></tag>
+
+Using addEventListener()
+---------------------------
+ele.addEventListener("eventName",function)
+
+The event object 
+--------------------
+When event happens ---> JS creates an event object.
